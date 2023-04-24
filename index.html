@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Elements Finder</title>
+        <link href="style.css" rel="stylesheet">
+        <h1>Elements Finder</h1>
+        <hr>
+    </head>
+    <body>
+        <div id='div1'>
+            <input id="input" autofocus autocomplete="off" type="number" required placeholder="1-118" min="1" max="118">
+            <input id="submit" type="submit" onclick="search()">
+        </div>
+        <div id='div2'>
+            <table id="csvTable">
+                <tr>
+                    <th>Atomic Number</th>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Atomic Mass</th>
+                </tr>
+            </table>
+        </div>
+    <script src="main.js"></script>
+    </body>
+</html>

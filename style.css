@@ -1,0 +1,49 @@
+h1{
+    color: burlywood;
+    position:  relative;
+    text-align: center;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#div1{
+    background-color: rgb(79, 187, 187);
+    border-style:dashed;
+    margin-top: 123px;
+    width:30%;
+    display: block;
+    margin: 0 auto;
+}
+
+#input,#submit{
+    width: 100px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#submit{
+    margin-top: 1%;
+    background-color: blanchedalmond;
+    border-radius: 22%;
+    border-color: rgb(146, 201, 35);
+}
+
+#div2{
+    display: grid;
+    margin-top: 10px;
+}
+
+table{
+    background: #000;
+}
+
+tr{
+    background-color: aliceblue;
+    color:rgba(0, 0, 0);
+    text-align: center;
+}
